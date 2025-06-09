@@ -13,4 +13,8 @@ In addition to leaving comments on Rate My Professors, reviews also include scor
 In the future, if additional data should be used for training, both [data augmentation](https://neptune.ai/blog/data-augmentation-nlp) and [web scrapping code](https://pypi.org/project/RateMyProfessorAPI/) are approaches to be considered.
 
 # Tasks:
-## 1. Create Embeddings for the Dataset:
+## 1. Embeddings for the Dataset:
+  - While words can be represented using [one-hot](https://en.wikipedia.org/wiki/One-hot) encoding, analysis was found to be significantly more effective with a [word embedding](https://en.wikipedia.org/wiki/Word_embedding). We began by using a pre-trained embeddign model, but once all the tasks for the project were completed, we experimented with fine-tuning the embedding layer for the listed tasks.
+## 2. Recurrent Neural Network:
+  - A recurrent neural network model was constructed to predict the quality and difficulty scores that a student will assign, given the text of the student's comments.
+  - 
