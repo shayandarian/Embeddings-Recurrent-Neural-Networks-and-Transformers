@@ -18,4 +18,6 @@ In the future, if additional data should be used for training, both [data augmen
   - We began by using a pre-trained embeddign model, but once all the tasks for the project were completed, we experimented with fine-tuning the embedding layer for the listed tasks.
 ## 2. Recurrent Neural Network:
   - A recurrent neural network model was constructed to predict the quality and difficulty scores that a student will assign, given the text of the student's comments.
+  - For a detailed description of the RNN architecture, the experiments done, the methods used, and the results found, see the RNN sections in the .ipynb file.
+## 3. Transformer Encoders:
   - 
