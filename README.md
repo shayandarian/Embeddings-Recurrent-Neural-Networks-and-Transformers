@@ -19,8 +19,8 @@ In the future, if additional data should be used for training, both [data augmen
 ## 2. Recurrent Neural Network:
   - A recurrent neural network model was constructed to predict the quality and difficulty scores that a student will assign, given the text of the student's comments.
   - For a detailed description of the RNN architecture, the experiments done, the methods used, and the results found, see the RNN sections in the .ipynb file.
-  - For new Keras users, a good tutorial to get started with is [Text classification with an RNN](https://www.tensorflow.org/text/tutorials/text_classification_rnn).
-  - For new PyTorch users, a good turotial to get started with is [Text classification with the torchtext library](https://pytorch.org/tutorials/beginner/text_sentiment_ngrams_tutorial.html).
+  - For Keras users, a good tutorial to get started with is [Text classification with an RNN](https://www.tensorflow.org/text/tutorials/text_classification_rnn).
+  - For PyTorch users, a good turotial to get started with is [Text classification with the torchtext library](https://pytorch.org/tutorials/beginner/text_sentiment_ngrams_tutorial.html).
 ## 3. Transformer:
   - A network using Transformer encoder blocks instead of RNN layers was constructed for the same prediction task.
   - This network required position encoding for sequences in addition to word embedding.
