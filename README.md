@@ -19,5 +19,9 @@ In the future, if additional data should be used for training, both [data augmen
 ## 2. Recurrent Neural Network:
   - A recurrent neural network model was constructed to predict the quality and difficulty scores that a student will assign, given the text of the student's comments.
   - For a detailed description of the RNN architecture, the experiments done, the methods used, and the results found, see the RNN sections in the .ipynb file.
-## 3. Transformer Encoders:
-  - 
+## 3. Transformer:
+  - A network using Transformer encoder blocks instead of RNN layers was constructed for the same prediction task.
+  - This network required position encoding for sequences in addition to word embedding.
+  - For Keras users, the [Text classification with Transformer](https://keras.io/examples/nlp/text_classification_with_transformer/) shows how to construct an encoder block from position embedding and multi-head attention layers, but [PositionEmbedding](https://keras.io/keras_hub/api/modeling_layers/position_embedding/) and [TransformerEncoder](https://keras.io/keras_hub/api/modeling_layers/transformer_encoder/) layers can be used directly.
+  - For PyTorch users, the tutorial [Language Modeling with nn.Transformer and torchtext](https://pytorch.org/tutorials/beginner/transformer_tutorial.html) shows how to construct both encoder and decoder blocks.
+  - The performance of the Transformer was compared to the performance of the RNN.
