@@ -1,4 +1,5 @@
 This project is from 2024.<br/>
+Embeddings, Recurrent Neural Networks (RNNs) and Transformers.<br/>
 The purpose of this project is to do [sentiment analysis](https://en.wikipedia.org/wiki/Sentiment_analysis) on comments left by students at Rate My Professors.<br/>
 # Datasets:
 ## 1. Embeddings:
